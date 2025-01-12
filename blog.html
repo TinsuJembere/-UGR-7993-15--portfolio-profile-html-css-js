@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinsae Jembere - Web Developer</title>
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./assets/css/home.css">
+</head>
+
+<body id="top" style="background: none;">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo" style="color: white;">HOME</label>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home" style="color: black;"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-user" style="color: black;"></i> About</a></li>
+            <li><a href="service.html"><i class="fas fa-cogs" style="color: black;"></i> Services</a></li>
+            <li><a href="portifolio.html"><i class="fas fa-briefcase" style="color: black;"></i> Portfolio</a></li>
+            <li><a href="blog.html"><i class="fas fa-blog" style="color: black;"></i> Blog</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope" style="color: black;"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <!-- BLOG SECTION -->
+    <section class="text-center section-padding" id="blog"
+        style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <div class="container">
+            <!-- Headline -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="arrow">MY <span style="color: #b1b493;">LITTLE</span> BLOG</h1>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="blog-row">
+                <!-- Blog Entry 1 -->
+                <div class="blog-entry">
+                    <div>
+                        <div class="overlay-effect effects clearfix">
+                            <div class="video">
+                                <video controls autoplay>
+                                    <source src="./video/webmusic.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>The Harmony of Web Development</h3>
+                            <p style="color: #999999;">Crafting a great website is like composing music—each element
+                                must work in harmony. I
+                                bring
+                                precision and creativity together to develop websites that resonate with users.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Entry 2 -->
+                <div class="blog-entry">
+                    <div>
+                        <div class="overlay-effect effects clearfix">
+                            <div class="video">
+                                <video controls autoplay>
+                                    <source src="./video/game.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Android Development: A Game of Strategy</h3>
+                            <p style="color: #999999;">Just like sports, creating Android apps requires strategy,
+                                teamwork, and adaptability. I
+                                build
+                                apps designed to perform and succeed in every scenario.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Entry 3 -->
+                <div class="blog-entry">
+                    <div>
+                        <div class="overlay-effect effects clearfix">
+                            <div class="video">
+                                <video controls autoplay>
+                                    <source src="./video/critical.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>Design Meets Critical Thinking</h3>
+                            <p style="color: #999999;">UI/UX design is where creativity and logic collide. Through
+                                thoughtful problem-solving
+                                and
+                                attention to detail, I create designs that are both functional and beautiful.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENT SECTION -->
+    <div class="container-fluid" style="margin-top: 50px;">
+        <div class="row color-bg">
+            <!-- Left Image -->
+            <div class="col-md-6 nopadding features-intro-img wow fadeInLeft">
+                <div class="about-image"><img src="./images/StockCake-Business Meeting Focus_1722256955.jpg" alt="">
+                </div>
+            </div>
+            <!-- Clients / Testimonials -->
+            <div class="col-md-6 nopadding about-text">
+                <h6>What my clients said</h6>
+                <div id="clientSlider">
+                    <ul class="slides" style="list-style: none;">
+                        <li>
+                            <p>“Working with Tinsae was a fantastic experience! Their expertise in web development
+                                transformed our outdated site into a modern, user-friendly platform that boosted our
+                                online presence.”
+                                <br><small>- Pete Rock, A New Tomorrow</small>
+                            </p>
+                        </li>
+                        <li>
+                            <p>“Tinsae delivered an intuitive and visually stunning app that perfectly met our needs.
+                                Their attention to detail and dedication throughout the process were truly impressive.”
+                                <br><small>- Michael Snowden, Creativeland CEO</small>
+                            </p>
+                        </li>
+                        <li>
+                            <p>“The UI/UX designs provided by Tinsae were a game-changer for our product. Our customers
+                                love the seamless experience, and we’ve seen a significant increase in engagement!”
+                                <br><small>- Tom Davis, GreenWonder</small>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

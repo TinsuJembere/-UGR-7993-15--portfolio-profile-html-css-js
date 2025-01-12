@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Tinsae Jembere</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="./assets/css/home.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-wrap {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-top: 20px;
+        }
+
+        img {
+            margin-bottom: 60px;
+        }
+
+        h1 span {
+            color: #b1b493;
+        }
+
+        .contact-details {
+            display: grid;
+            place-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: center;
+            gap: 20px;
+        }
+
+
+        .contact-details .dark-box {
+            background: #9999991c;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            min-width: 280px;
+            max-width: 300px;
+            border-bottom: #b1b493 5px solid;
+        }
+
+
+        .dark-box h2 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .dark-box p {
+            margin: 0;
+            color: #b1b493;
+            padding-top: 30px;
+        }
+
+        .dark-box a {
+            color: #b1b493;
+            text-decoration: none;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .social-buttons li a {
+            margin-top: 130px;
+            margin-bottom: 50px;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background: #b1b493;
+            color: black;
+            line-height: 40px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+
+        .social-buttons li a:hover {
+            color: #fff;
+        }
+
+        footer {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        @media (max-width: 950px) {
+            .contact-details {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .social-buttons li a {
+                margin-top: 60px;
+            }
+
+            .contact-details .dark-box {
+                min-width: 400px;
+                max-width: 600px;
+            }
+        }
+    </style>
+</head>
+
+<body style="background: none;">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo" style="color: white;">HOME</label>
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home" style="color: black;"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-user" style="color: black;"></i> About</a></li>
+            <li><a href="service.html"><i class="fas fa-cogs" style="color: black;"></i> Services</a></li>
+            <li><a href="portifolio.html"><i class="fas fa-briefcase" style="color: black;"></i> Portfolio</a></li>
+            <li><a href="blog.html"><i class="fas fa-blog" style="color: black;"></i> Blog</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope" style="color: black;"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <section class="contact-wrap" id="contact">
+        <h1>DROP <span>ME</span> A LINE</h1>
+        <img src="../images/h1-bg.png" alt="">
+        <div class="contact-details">
+            <div class="dark-box">
+                <h2><i class="fa fa-map-marker"></i> Address</h2>
+                <p>Addis Ababa, Ethiopia</p>
+            </div>
+            <div class="dark-box">
+                <h2><i class="fa fa-mobile"></i> Phone</h2>
+                <p>+251993890237</p>
+            </div>
+            <div class="dark-box">
+                <h2><i class="fa fa-paper-plane"></i> Email</h2>
+                <p><a href="mailto:tinsaejembere4@gmail.com">tinsaejembere4@gmail.com</a></p>
+            </div>
+        </div>
+        <ul class="social-buttons">
+            <li><a href="https://t.me/I_surrenderTS1920" title="Telegram"><i class="fa-brands fa-telegram"></i></a></li>
+            <li><a href="https://linkedin.com/in/tinsae-jembere-8157642b9" title="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/Samti1417" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://wa.me/+251993890237" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="http://www.youtube.com/@TinsaeJembere" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+        </ul>
+    </section>
+    <footer>
+        <p>All Rights Reserved. &copy; 2024</p>
+    </footer>
+</body>
+
+</html>
